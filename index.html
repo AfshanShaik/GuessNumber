@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Blue_Q.png" type="image/x-icon">
+    <style>
+        body{
+            background-image: url('https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: rgb(51, 51, 51);"><center>GUESS ME!</center></h2>
+        <div class="form">
+        <center><h3 style="color:red">RULE</h3></center>
+        <center><p >Select a number between 1 to 100 and Guess it!</p></center>
+        <center><p >Guess a number : </p><input type="text" placeholder="Enter Number" id="n1"></center> 
+        </div>
+        <br><br>
+        <center><div id="result">RESULT:</div></center>
+        <br><br>
+        <div class="btn">
+           <center><button onclick="func()">Check</button>
+             <button onclick="window.location.reload()">Reset</button></center>
+        </div>
+
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
